@@ -4,14 +4,16 @@ import { Container, Row, Col } from 'react-bootstrap';
 import LeftsideNav from '../Shared/LeftsideNav/LeftsideNav';
 import RightSideNav from '../Shared/RightSideNav/RightSideNav';
 import Footer from '../Shared/Footer/Footer';
+import Header from '../Shared/Header/Header';
 
 const Main = () => {
 
     return (
         <div>
+            <Header></Header>
             <Container>
                 <Row>
-                    <Col lg="3">
+                    <Col lg="3" className='d-none d-lg-block'>
                         <LeftsideNav>
 
                         </LeftsideNav>

@@ -2,6 +2,7 @@ import Home from "../Pages/Home/Home";
 import Main from "../Main/Main";
 import Category from "../Pages/Category/Category";
 import News from "../Pages/News/News";
+import Header from "../Shared/Header/Header";
 
 const { createBrowserRouter } = require("react-router-dom");
 
