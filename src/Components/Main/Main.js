@@ -15,7 +15,6 @@ const Main = () => {
                 <Row>
                     <Col lg="3" className='d-none d-lg-block'>
                         <LeftsideNav>
-
                         </LeftsideNav>
                     </Col>
                     <Col lg="6">
